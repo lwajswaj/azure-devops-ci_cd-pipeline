@@ -1,6 +1,7 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Application.Models;
 
 namespace Application.Models
 {
@@ -43,5 +44,7 @@ namespace Application.Models
                     .IsUnicode(false);
             });
         }
+
+        public DbSet<Application.Models.ToDo> ToDo { get; set; }
     }
 }
