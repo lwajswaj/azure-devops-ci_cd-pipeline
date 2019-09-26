@@ -81,5 +81,6 @@
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\Contacts.sql" />
+    <Build Include="Tables\ToDo.sql" />
   </ItemGroup>
 </Project>
