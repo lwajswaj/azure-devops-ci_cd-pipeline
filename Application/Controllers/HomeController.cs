@@ -17,7 +17,7 @@ namespace Application.Controllers
 
     public IActionResult About()
     {
-      ViewData["Message"] = "Your application description page.";
+      ViewData["Message"] = "This application has been created by Leandro Wajswajn Pereyra for demo purposes.";
 
       return View();
     }
